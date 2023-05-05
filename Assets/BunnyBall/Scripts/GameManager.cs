@@ -13,14 +13,14 @@ public class GameManager : MonoBehaviour
        //is the game over?
        if(gameOver == true)
         {
-            player.GetComponent<Player>().enabled = false;
-            Destroy(player.GetComponent<Rigidbody>());
-            winnerUI.SetActive(true);
-            gameObject.SetActive(false);
+            GameOver();
         }
     }
 
     void GameOver() {
-       
+        player.GetComponent<Player>().enabled = false;
+        Destroy(player.GetComponent<Rigidbody>());
+        winnerUI.SetActive(true);
+        gameObject.SetActive(false);
     }
 }
