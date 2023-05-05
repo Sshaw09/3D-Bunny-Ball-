@@ -53,6 +53,7 @@
      <Compile Include="Assets\BunnyBall\Scripts\DeathBox.cs" />
      <Compile Include="Assets\BunnyBall\Scripts\Key.cs" />
      <Compile Include="Assets\BunnyBall\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\BunnyBall\Scripts\GameInstructions.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -626,8 +627,14 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
@@ -673,12 +680,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>/Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

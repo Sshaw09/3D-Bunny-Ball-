@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BunnyBall/Scripts/Key.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BunnyBall/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Library/PackageCache/com.unity.ide.visualstudio@2.0.11/Editor/VisualStudioIntegration.cs" />
       <File FileName="Assets/BunnyBall/Scripts/Key.cs" Line="1" Column="1" />
+      <File FileName="Assets/BunnyBall/Scripts/GameManager.cs" Line="19" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
               <Node name="Assets" expanded="True">
                 <Node name="BunnyBall" expanded="True">
                   <Node name="Scripts" expanded="True">
-                    <Node name="Key.cs" selected="True" />
+                    <Node name="GameManager.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>

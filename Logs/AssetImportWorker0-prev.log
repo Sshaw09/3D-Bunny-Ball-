@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60799
+61363
 Successfully changed project path to: /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-
 /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Assets
 GfxDevice: creating device client; threaded=0
-2023-05-01 21:11:58.713 Unity[89485:4114082] (null) preferred device: Apple M1 Pro (high power)
-2023-05-01 21:11:58.713 Unity[89485:4114082] Metal devices available: 1
-2023-05-01 21:11:58.713 Unity[89485:4114082] 0: Apple M1 Pro (high power)
-2023-05-01 21:11:58.713 Unity[89485:4114082] Using device Apple M1 Pro (high power)
+2023-05-01 21:48:32.273 Unity[91441:4145824] (null) preferred device: Apple M1 Pro (high power)
+2023-05-01 21:48:32.273 Unity[91441:4145824] Metal devices available: 1
+2023-05-01 21:48:32.273 Unity[91441:4145824] 0: Apple M1 Pro (high power)
+2023-05-01 21:48:32.273 Unity[91441:4145824] Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56485
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56441
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000349 seconds.
+Registered in 0.001219 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.113 seconds
+- Completed reload, in  2.947 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2114ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (2947ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (858ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (963ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (517ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (592ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001014 seconds.
+Registered in 0.003289 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.157 seconds
+- Completed reload, in  2.226 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2158ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (2228ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
+			DisableScriptedObjects (36ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1847ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1915ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1109ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1157ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (205ms)
-				ProcessInitializeOnLoadAttributes (873ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (889ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000953 seconds.
+Validating Project structure ... 0.001264 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001401 seconds.
+Upgrading shader files ...0.001070 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,20 +125,52 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
 Initializing Unity extensions:
-2023-05-01 21:12:04.136 Unity[89485:4114082] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa5d534b860 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2023-05-01 21:12:04.139 Unity[89485:4114082] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa5d50b8f80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[C# Project] Writing /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/3D Bunny Ball-.sln because it has changed
+[C# Project] First difference on line 2
+
+[C# Project] Current /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/3D Bunny Ball-.sln:
+[C# Project]   002: Microsoft Visual Studio Solution File, Format Version 12.00
+[C# Project]   003: # Visual Studio 15
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{649CD038-E888-BFEA-E829-4B544C8E1E49}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+
+[C# Project] New /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/3D Bunny Ball-.sln:
+[C# Project]   002: Microsoft Visual Studio Solution File, Format Version 11.00
+[C# Project]   003: # Visual Studio 2010
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{3EADF750-1E33-25CF-876E-18D496C321AB}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.XR.LegacyInputHelpers", "UnityEngine.XR.LegacyInputHelpers.csproj", "{63A0BCB7-7C58-35C5-5F05-D9AB03EAD8A7}"
+[C# Project] Writing /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 5
+
+[C# Project] Current /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Assembly-CSharp.csproj:
+[C# Project]   005:   </PropertyGroup>
+[C# Project]   006:   <PropertyGroup>
+[C# Project]   007:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+[C# Project]   008:     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+[C# Project]   009:     <ProductVersion>10.0.20506</ProductVersion>
+
+[C# Project] New /Users/stephenshaw/Desktop/Create with Code/3D Bunny Ball-/Assembly-CSharp.csproj:
+[C# Project]   005:     <CscToolPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+[C# Project]   006:     <CscToolExe>unity_csc.sh</CscToolExe>
+[C# Project]   007:   </PropertyGroup>
+[C# Project]   008:   <PropertyGroup>
+[C# Project]   009:     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+2023-05-01 21:48:39.425 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a84d4e840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-05-01 21:48:39.428 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a75b560b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.2 MB.
-System memory in use after: 112.4 MB.
+Unloading 1643 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.4 MB.
+System memory in use after: 113.6 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 2.540834 ms (FindLiveObjects: 0.131458 ms CreateObjectMapping: 0.033917 ms MarkObjects: 1.951167 ms  DeleteObjects: 0.423083 ms)
+Unloading 137 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 2.718291 ms (FindLiveObjects: 0.135750 ms CreateObjectMapping: 0.033416 ms MarkObjects: 2.115417 ms  DeleteObjects: 0.432625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,248 +184,438 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/BunnyBall/Art/3D/Land.fbx
-  artifactKey: Guid(102d2331bbbdb444188d4102b0a645e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/Land.fbx using Guid(102d2331bbbdb444188d4102b0a645e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd79742d514b3cc547f8d66f76b5db4') in 0.699006 seconds 
-  Import took 0.701592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002763 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/Water.mat
-  artifactKey: Guid(ee6b2b593e929f143a675ebe40bedde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/Water.mat using Guid(ee6b2b593e929f143a675ebe40bedde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb8fb7dc83937143bc31356835d9ef3') in 0.414891 seconds 
-  Import took 0.417406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002369 seconds.
-  path: Assets/BunnyBall/SimpleParticlePack/Materials/Flame02.mat
-  artifactKey: Guid(e2c8d6845c95d445685323e25880e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/SimpleParticlePack/Materials/Flame02.mat using Guid(e2c8d6845c95d445685323e25880e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5117c81f7e2f9aa49802038eb7b180ee') in 0.062363 seconds 
-  Import took 0.064761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004801 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/Gate.mat
-  artifactKey: Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/Gate.mat using Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7d31d944d38d17e16aa4e52c9f24f') in 0.009799 seconds 
-  Import took 0.012479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/BunnyBall/Materials/PlayerBall.mat
-  artifactKey: Guid(2d3619870b987e24d863ab9ef3a01ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/PlayerBall.mat using Guid(2d3619870b987e24d863ab9ef3a01ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2ceba8cd047c1c7fd6871c2d63914f') in 0.145150 seconds 
-  Import took 0.147463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/BunnyBall/Materials/LightGrass.mat
-  artifactKey: Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/LightGrass.mat using Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00ed000befd3c32e2182e8d095b3395') in 0.008050 seconds 
-  Import took 0.010426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/BunnyBall/Materials/GradientSkybox.mat
-  artifactKey: Guid(491bd8061d6ec424685c13c6f1f8f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/GradientSkybox.mat using Guid(491bd8061d6ec424685c13c6f1f8f175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad8a9e0eb1c321ef247863fcea21c31') in 0.109663 seconds 
-  Import took 0.111930 seconds .
+  path: Assets/BunnyBall/Art/3D
+  artifactKey: Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Art/3D using Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d07cd668a106f805e8820da8bc5e86f') in 0.006421 seconds 
+  Import took 0.009152 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000276 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/LightGrass.mat
-  artifactKey: Guid(d44d586e08fdace448b050fb9e383dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/LightGrass.mat using Guid(d44d586e08fdace448b050fb9e383dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c457850066bf70d9bd5ad5991d09283') in 0.008491 seconds 
-  Import took 0.010937 seconds .
+  path: Assets/BunnyBall/Art
+  artifactKey: Guid(c69495f15cca8e34e962b1f145e23db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Art using Guid(c69495f15cca8e34e962b1f145e23db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84899e0b659917b1b3846cebb636a6b') in 0.000888 seconds 
+  Import took 0.002730 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/DarkConcrete.mat
-  artifactKey: Guid(e18f01babf070df43bf158ef5c2dcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/DarkConcrete.mat using Guid(e18f01babf070df43bf158ef5c2dcde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa02eaaa9d8010f388e9494bb1c413') in 0.008045 seconds 
-  Import took 0.010461 seconds .
+  Time since last request: 24.191014 seconds.
+  path: Assets/BunnyBall/Prefabs/BrickWall.prefab
+  artifactKey: Guid(db6cbfbd2fadd4436bde41b27b36aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/BrickWall.prefab using Guid(db6cbfbd2fadd4436bde41b27b36aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5d91192a79c09b13d9fbe1b624cb5') in 0.810771 seconds 
+  Import took 0.815619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/BunnyBall/SimpleParticlePack/Materials/Shockwave.mat
-  artifactKey: Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/SimpleParticlePack/Materials/Shockwave.mat using Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1494dd822d16239f6d8f0badef735c00') in 0.007742 seconds 
-  Import took 0.010331 seconds .
+  Time since last request: 0.001970 seconds.
+  path: Assets/BunnyBall/Prefabs/Shockwave.prefab
+  artifactKey: Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/Shockwave.prefab using Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff671628b1fd32471fc912bdbcbd6b0') in 0.056826 seconds 
+  Import took 0.060006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/BunnyBall/Materials/Bricks.mat
-  artifactKey: Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/Bricks.mat using Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46847ffafca77c308f0da9cf4c1bad99') in 0.008485 seconds 
-  Import took 0.011267 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/BunnyBall/Prefabs/Grass.prefab
+  artifactKey: Guid(ff809012324d5ce4db798c23137b771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/Grass.prefab using Guid(ff809012324d5ce4db798c23137b771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54f394e98685c24d968c13e4bb9880c') in 0.014388 seconds 
+  Import took 0.016624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/LigthConcrete.mat
-  artifactKey: Guid(06676d1f0b7cb2e4bba8418f650feb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/LigthConcrete.mat using Guid(06676d1f0b7cb2e4bba8418f650feb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf021ebd9a766b8f089f6cb4f4bdcf') in 0.008065 seconds 
-  Import took 0.010705 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/BunnyBall/Prefabs/Player.prefab
+  artifactKey: Guid(f757b320558b7984c96b025d56b0fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/Player.prefab using Guid(f757b320558b7984c96b025d56b0fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcefcc99f2ddd231a43c0abaf8d0830c') in 0.046477 seconds 
+  Import took 0.048963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/BunnyBall/Materials/LightConcrete.mat
-  artifactKey: Guid(bc4d431f124182349b7ccf089ac64255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/LightConcrete.mat using Guid(bc4d431f124182349b7ccf089ac64255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ef1de957ddaacf4019bb6c5e092631') in 0.008763 seconds 
-  Import took 0.011432 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/BunnyBall/Prefabs/Fence.prefab
+  artifactKey: Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/Fence.prefab using Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b91a1ed6c1639d9f55e78514e4ee81') in 0.009503 seconds 
+  Import took 0.011877 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/BrickWall.mat
-  artifactKey: Guid(4a5c88b961aabca40b4f40c90b45affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/BrickWall.mat using Guid(4a5c88b961aabca40b4f40c90b45affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705527120a38a0264422f05559707226') in 0.009434 seconds 
-  Import took 0.011947 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/BunnyBall/Prefabs/Key.prefab
+  artifactKey: Guid(e6204ab31da16b5468b048819a83c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/Key.prefab using Guid(e6204ab31da16b5468b048819a83c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd934b3ad96694cf177584155841a2e87') in 0.058413 seconds 
+  Import took 0.060831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/BunnyBall/Art/3D/BrickWall.fbx
-  artifactKey: Guid(ceb2da491c530414aa62558a7d0fe714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/BrickWall.fbx using Guid(ceb2da491c530414aa62558a7d0fe714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd4f9fe72a6fb2a3142df150aa91a9b') in 0.020447 seconds 
-  Import took 0.022577 seconds .
+  Time since last request: 90.475077 seconds.
+  path: Assets/BunnyBall/Scripts/Key.cs
+  artifactKey: Guid(c65264f8896472545b924f5dc724188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Scripts/Key.cs using Guid(c65264f8896472545b924f5dc724188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9749254c54ead22bf2b2ad29908929c5') in 0.226645 seconds 
+  Import took 0.237097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 21:58:07.662 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a84d653f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2485ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2150ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (963ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.7 MB.
+System memory in use after: 272.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2131.
+Total: 2.405000 ms (FindLiveObjects: 0.140208 ms CreateObjectMapping: 0.032875 ms MarkObjects: 2.212667 ms  DeleteObjects: 0.018166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 453.351594 seconds.
+  path: Assets/BunnyBall/Prefabs/BrickWall.prefab
+  artifactKey: Guid(db6cbfbd2fadd4436bde41b27b36aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Prefabs/BrickWall.prefab using Guid(db6cbfbd2fadd4436bde41b27b36aec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f5828d28b8c197e6a3032734ae35dd') in 0.150785 seconds 
+  Import took 0.153349 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 22:00:19.657 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a8493b630 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2547ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (2266ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (287ms)
+				ProcessInitializeOnLoadAttributes (1072ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.8 MB.
+System memory in use after: 275.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2134.
+Total: 2.209250 ms (FindLiveObjects: 0.116083 ms CreateObjectMapping: 0.038417 ms MarkObjects: 2.037500 ms  DeleteObjects: 0.016459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 22:01:23.374 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a961c84d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2405ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2094ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (272ms)
+				ProcessInitializeOnLoadAttributes (971ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 278.7 MB.
+System memory in use after: 278.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 2.230125 ms (FindLiveObjects: 0.112292 ms CreateObjectMapping: 0.031334 ms MarkObjects: 2.070208 ms  DeleteObjects: 0.015542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.463030 seconds.
+  path: Assets/BunnyBall/Scripts/GameManager.cs
+  artifactKey: Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Scripts/GameManager.cs using Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603dd0a1125280907a428fb02ff16e56') in 0.008239 seconds 
+  Import took 0.011140 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/BunnyBall/Art/3D/Fence.fbx
-  artifactKey: Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/Fence.fbx using Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61588f2f10d219c3d86334e9be3771a2') in 0.017088 seconds 
-  Import took 0.019254 seconds .
+  Time since last request: 0.000693 seconds.
+  path: Assets/BunnyBall/Scripts/GameManager.cs
+  artifactKey: Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BunnyBall/Scripts/GameManager.cs using Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603dd0a1125280907a428fb02ff16e56') in 0.001948 seconds 
+  Import took 0.003983 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/DarkGrass.mat
-  artifactKey: Guid(88d233501bc54964fbfd1909c6dcd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/DarkGrass.mat using Guid(88d233501bc54964fbfd1909c6dcd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dfaf018d9823e826e51a797580ff82') in 0.008194 seconds 
-  Import took 0.010468 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 22:03:46.820 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a84d0a320 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2608ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2293ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (286ms)
+				ProcessInitializeOnLoadAttributes (1054ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 281.6 MB.
+System memory in use after: 281.7 MB.
 
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 2.487542 ms (FindLiveObjects: 0.191833 ms CreateObjectMapping: 0.033791 ms MarkObjects: 2.230625 ms  DeleteObjects: 0.030250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/DarkGrassPathStraight.mat
-  artifactKey: Guid(2441db5cd6d39374cbeb5ed8a1d9d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/DarkGrassPathStraight.mat using Guid(2441db5cd6d39374cbeb5ed8a1d9d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430028916e33bcdf651e7f510f0ce12') in 0.007444 seconds 
-  Import took 0.009689 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 22:04:41.945 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7a84d5a640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2453ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2152ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (1003ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.5 MB.
+System memory in use after: 284.6 MB.
 
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 2.076084 ms (FindLiveObjects: 0.135333 ms CreateObjectMapping: 0.041125 ms MarkObjects: 1.881292 ms  DeleteObjects: 0.017417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat
-  artifactKey: Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat using Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fbbf253d7f93799edbe7eb76e1019b') in 0.007616 seconds 
-  Import took 0.009763 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004323 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2023-05-01 22:11:35.932 Unity[91441:4145824] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f7ab51c5600 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2551ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2194ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (276ms)
+				ProcessInitializeOnLoadAttributes (1057ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 287.4 MB.
+System memory in use after: 287.5 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/BunnyBall/Art/Textures/Materials/Bush.mat
-  artifactKey: Guid(35c8ab062e830aa4bbb93a7e0b72fdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/Textures/Materials/Bush.mat using Guid(35c8ab062e830aa4bbb93a7e0b72fdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef97925771db4619884f122936b9e53') in 0.008059 seconds 
-  Import took 0.010259 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 2.348667 ms (FindLiveObjects: 0.201667 ms CreateObjectMapping: 0.034917 ms MarkObjects: 2.090625 ms  DeleteObjects: 0.020333 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/BunnyBall/Materials/Key.mat
-  artifactKey: Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/Key.mat using Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db1bcb8c1bc1224b3d6aeccc4ffb28') in 0.117300 seconds 
-  Import took 0.119542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/BunnyBall/Art/3D/Key.fbx
-  artifactKey: Guid(27d4189548aa2b64092c0b398634eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/Key.fbx using Guid(27d4189548aa2b64092c0b398634eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5af114c916ef013f7e8e668b984254') in 0.016893 seconds 
-  Import took 0.019304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/BunnyBall/Art/3D/Character.fbx
-  artifactKey: Guid(5a3029992dd890d4ba2e3685248d11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/Character.fbx using Guid(5a3029992dd890d4ba2e3685248d11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8678542cdfb725bffa712d583618bc6') in 0.038845 seconds 
-  Import took 0.041301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/BunnyBall/Art/3D/Rocks.fbx
-  artifactKey: Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Art/3D/Rocks.fbx using Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20d391ffdc7f71c7376c3ae8cb55041') in 0.017436 seconds 
-  Import took 0.019755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/BunnyBall/Materials/Bush.mat
-  artifactKey: Guid(e088a76c27654b44d9ad8d3024b12486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Materials/Bush.mat using Guid(e088a76c27654b44d9ad8d3024b12486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255e6c94d2dd2a2bacc033400d2544a0') in 0.008046 seconds 
-  Import took 0.010278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/BunnyBall/SimpleParticlePack/Materials/Flame01.mat
-  artifactKey: Guid(b1ca011c5f92d4fd4b5aeac44fd607c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/SimpleParticlePack/Materials/Flame01.mat using Guid(b1ca011c5f92d4fd4b5aeac44fd607c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba3426d0d7c52aea2f8e200af47359f') in 0.047394 seconds 
-  Import took 0.049465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.150689 seconds.
-  path: Assets/BunnyBall
-  artifactKey: Guid(5a52ea026536241da88d2eeedff359e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall using Guid(5a52ea026536241da88d2eeedff359e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab783f165f0bab8d367cc7186b77f7a') in 0.001621 seconds 
-  Import took 0.007522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035538 seconds.
-  path: Assets/BunnyBall
-  artifactKey: Guid(5a52ea026536241da88d2eeedff359e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall using Guid(5a52ea026536241da88d2eeedff359e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab783f165f0bab8d367cc7186b77f7a') in 0.000730 seconds 
-  Import took 0.003039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.798760 seconds.
-  path: Assets/BunnyBall/Scripts
-  artifactKey: Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Scripts using Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527f317032da6954164fbfac0a1f9e5f') in 0.000742 seconds 
-  Import took 0.003197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.839325 seconds.
-  path: Assets/BunnyBall/Scenes
-  artifactKey: Guid(130f7358af742486a980620e62a40d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Scenes using Guid(130f7358af742486a980620e62a40d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f570b7f32472944da6141245283365a') in 0.001145 seconds 
-  Import took 0.004866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.901431 seconds.
-  path: Assets/BunnyBall/Scenes/Game.unity
-  artifactKey: Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BunnyBall/Scenes/Game.unity using Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548cca9a1f2bf3c519ec9796342b8638') in 0.006122 seconds 
-  Import took 0.011200 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
