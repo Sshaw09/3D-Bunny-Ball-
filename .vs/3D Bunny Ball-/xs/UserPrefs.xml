@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BunnyBall/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BunnyBall/Scripts/GameInstructions.cs">
     <Files>
-      <File FileName="Assets/BunnyBall/Scripts/Key.cs" />
+      <File FileName="Assets/BunnyBall/Scripts/Key.cs" Line="1" Column="1" />
       <File FileName="Assets/BunnyBall/Scripts/GameManager.cs" Line="16" Column="24" />
-      <File FileName="Assets/BunnyBall/Scripts/Player.cs" Line="31" Column="40" />
-      <File FileName="Assets/BunnyBall/Scripts/GameInstructions.cs" Line="13" Column="1" />
+      <File FileName="Assets/BunnyBall/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/BunnyBall/Scripts/GameInstructions.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,7 @@
               <Node name="Assets" expanded="True">
                 <Node name="BunnyBall" expanded="True">
                   <Node name="Scripts" expanded="True">
-                    <Node name="GameManager.cs" selected="True" />
+                    <Node name="GameInstructions.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
